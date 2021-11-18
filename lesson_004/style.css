@@ -1,0 +1,21 @@
+/* Псевдоклассы */
+
+:link
+:hover
+:active
+:visited
+
+a:link { 
+    text-decoration: none;
+    color: red;
+}
+
+h1:hover {color:blue}
+
+h1::before {
+    content: "___";
+}
+
+h1::after {
+    content: "!!!";
+}

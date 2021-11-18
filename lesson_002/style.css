@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    color: darkblue;
+    background-color: darkorange;
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 10px;
+    }
+
+table {
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkslateblue;
+    width: 80%;
+}
+
+td {
+    border-style: dashed;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.td_right {
+    text-align: right;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+hr {
+    width: 90%;
+    border-style: double;
+    border-color: darkorange;
+    margin: 20px
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lesson_010",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass -w ./src/scss:./src/styles",
+    "build": "sass ./src/scss:./src/styles && parcel build ./src/index.html"
+  },
+  "author": "amsterford",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.1",
+    "sass": "^1.44.0"
+  }
+}
